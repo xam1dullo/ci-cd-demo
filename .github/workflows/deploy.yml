@@ -8,7 +8,7 @@ on:
 
 jobs:
   test-and-deploy-to-digitel-ocean:
-    run-on: ubuntu-lastest
+    runs-on: ubuntu-lastest
 
     steps:
       - name: Checkout code
